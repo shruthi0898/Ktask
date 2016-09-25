@@ -492,7 +492,7 @@ h4{
 
 .about-content {
   width: 50%;
-/*   background-image: url("../images/about-bg.jpg"); */
+/*   background-image: url("about-bg.jpg"); */
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -528,14 +528,15 @@ h4{
 **************************/
 
 #twitter {
-  background-color: black;
-  /*background-image: url("../images/twitter-bg.jpg"); */
+   background-color: black;
+  background-image: url("../images/twitter-bg.jpg");
   /*background-position: center bottom; */
   /*background-size: cover; */
   background-repeat:no-repeat;
   position: relative;
   padding: 10px 0 90px;
   overflow: hidden;
+  background-position: right center;
 }
 
 .twit {
